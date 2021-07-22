@@ -26,6 +26,4 @@ finally:
             if(os.path.isfile(f'{datetime.now().strftime("%d.%m.%y")}.csv')):
                 os.remove(f'{datetime.now().strftime("%d.%m.%y")}.csv')
 
-print('ok')
-
 time.sleep(2**20)
