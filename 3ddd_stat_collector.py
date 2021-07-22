@@ -12,7 +12,7 @@ except Exception as exc:
     print(f'!Python script error ({str_exc}!')
 finally:
     str_exc = str(traceback.format_exc())
-    if(not str_exc):
+    if(str_exc != None):
         try:
             import parse2
         except Exception as e:
